@@ -1,5 +1,3 @@
-from PIL.ImageChops import difference
-
 number1 = 10
 number2 = 5
 Sum = number1 + number2
