@@ -1,6 +1,0 @@
-[submodule "alx_be_python/control-flow"]
-	path = alx_be_python/control-flow
-	url = git@github.com:BNdiema/alx_be_python.git
-[submodule "control-flow"]
-	path = control-flow
-	url = git@github.com:BNdiema/alx_be_python.git
