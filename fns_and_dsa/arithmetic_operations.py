@@ -11,5 +11,5 @@ def perform_operation(num1, num2, operation):
         case "divide":
             if num1 and num2 == 0:
                 return "Cannot divide by zero"
-            else:
+            elif operation:
                 return num1 / num2
