@@ -1,6 +1,5 @@
-import datetime
+from future.backports.datetime import timedelta, datetime
 
-from future.backports.datetime import timedelta
 
 
 def display_current_datetime():
