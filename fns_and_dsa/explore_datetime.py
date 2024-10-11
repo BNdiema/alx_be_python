@@ -1,4 +1,4 @@
-from future.backports.datetime import timedelta, datetime
+from future.backports.datetime import datetime
 
 
 
