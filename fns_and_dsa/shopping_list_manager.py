@@ -8,7 +8,7 @@ def display_menu():
     print("4. Exit")
 
 def add_items():
-    items = input("Add an item(s) to the list.")
+    items = input("Enter item to add:")
     items_in_list = [item.strip() for item in items.split(',')]
     shopping_list.extend(items_in_list)
     print(shopping_list)
