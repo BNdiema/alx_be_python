@@ -1,5 +1,12 @@
 shopping_list = []
 
+def display_menu():
+    print("Shopping List Manager")
+    print("1. Add Item")
+    print("2. Remove Item")
+    print("3. View List")
+    print("4. Exit")
+
 def add_items():
     items = input("Add an item(s) to the list.")
     items_in_list = [item.strip() for item in items.split(',')]
