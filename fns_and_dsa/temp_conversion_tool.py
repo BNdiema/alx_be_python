@@ -17,4 +17,4 @@ def convert_temp():
         converted_temp = convert_to_fahrenheit(temp)
         print(f"{temp}°C is {converted_temp}°F")
     else:
-        print("Invalid temperature")
+        raise ValueError("Invalid temperature. Please enter a numeric value")
