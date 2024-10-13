@@ -9,7 +9,7 @@ def convert_to_fahrenheit(celsius):
 
 def convert_temp():
     temp = float(input("Enter the temperature to convert: "))
-    temp_to_convert = input("Is this temperature in Celsius of Fahrenheit? (C/F): ").strip().upper()
+    temp_to_convert = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
     if temp_to_convert == "F":
         converted_temp = convert_to_celsius(temp)
         print(f"{temp}°F is {converted_temp}°C")
